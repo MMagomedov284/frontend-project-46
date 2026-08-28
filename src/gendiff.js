@@ -16,8 +16,8 @@ function readAndParseJson(file) {
     const data = readFileSync(filePath, 'utf8')
     return JSON.parse(data)
   }
-  catch {
-    throw new Error(`Ошибка при чтении/парсинге файла ${file}: ${err.message}`)
+  catch (err) {
+    throw new Error(`Ошибка при чтении/парсинге файла ${file}: ${err.message}`, { cause: err })
   }
 }
 
