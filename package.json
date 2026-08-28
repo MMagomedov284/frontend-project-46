@@ -1,0 +1,39 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "bin": {
+    "cli": "bin/cli.js"
+  },
+  "description": "[![Actions Status](https://github.com/MMagomedov284/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MMagomedov284/frontend-project-46/actions)",
+  "homepage": "https://github.com/MMagomedov284/frontend-project-46#readme",
+  "bugs": {
+    "url": "https://github.com/MMagomedov284/frontend-project-46/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMagomedov284/frontend-project-46.git"
+  },
+  "type": "module",
+  "main": "src/cli.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "commander": "^15.0.0",
+    "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@vitest/coverage-istanbul": "^4.1.11",
+    "@vitest/coverage-v8": "^4.1.11",
+    "eslint": "^10.8.0",
+    "globals": "^17.9.0",
+    "jest": "^30.4.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  }
+}
